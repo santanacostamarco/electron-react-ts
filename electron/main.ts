@@ -1,6 +1,9 @@
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 let mainWindow: Electron.BrowserWindow | null;
 
